@@ -1,0 +1,20 @@
+.conteiner{
+    transition: display 3s, width 3s, height 3s, border-radius 3s, overflow 3s, gap 3s;
+}
+
+.conteiner:hover .btn{
+    display: flex;
+}
+
+.conteiner:hover .img{
+    width: 275px;
+    height: 230px;    
+    border-radius: 14px;
+    overflow: hidden;
+    
+}
+
+.conteiner:hover .cont{
+    gap: 20px;
+}
+
