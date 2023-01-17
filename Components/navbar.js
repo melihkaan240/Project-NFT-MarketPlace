@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Button, Spacer } from "@chakra-ui/react";
+import { Box, Flex, Text, Button, Spacer, Link } from "@chakra-ui/react";
 import Head from "next/head";
 import { parseAddress } from "../Hooks/parseAddress";
 import { useSetAccount } from "../Hooks/useSetAccount";
@@ -18,12 +18,19 @@ export default function Navbar() {
         <Text fontSize="16px" textColor="white" fontWeight="200">
           Marketplace
         </Text>
-        <Text marginX="5" fontSize="16px" textColor="white" fontWeight="200">
+        <Link
+          href="/transfer"
+          marginX="5"
+          fontSize="16px"
+          textColor="white"
+          fontWeight="200"
+        >
           Creators
-        </Text>
+        </Link>
         <Text fontSize="16px" textColor="white" fontWeight="200">
           Community
         </Text>
+        <Box w={10}></Box>
       </Flex>
       <Spacer />
       <Text

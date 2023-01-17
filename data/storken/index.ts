@@ -5,6 +5,7 @@ export const [Storken, { useStorken }] = createStore({
     account: "" as any,
     balance: "" as any,
     testStorken: "" as any,
+    contract: "" as any,
   },
 });
 

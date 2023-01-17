@@ -18,7 +18,7 @@ export default function () {
     {
       id: 1,
       name: "Collectibles",
-      link: "/",
+      link: "/transfer",
     },
     {
       id: 2,
