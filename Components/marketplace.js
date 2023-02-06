@@ -229,7 +229,7 @@ export default function () {
                         fontSize: "20px",
                       }}
                     >
-                      Sports
+                      Buy NFT
                     </Button>
                   </Box>
                 </Box>

@@ -1,15 +1,4 @@
-import {
-  Box,
-  Flex,
-  Text,
-  Button,
-  Spacer,
-  Option,
-  Image,
-  Grid,
-  GridItem,
-  Input,
-} from "@chakra-ui/react";
+import { Box, Flex, Text, Button, Input } from "@chakra-ui/react";
 
 export default function () {
   return (
@@ -78,7 +67,7 @@ export default function () {
         marginTop="80px"
       >
         <Text fontSize="18px" textColor="white">
-          © 2018 - 2022 SILVERSEA, Inc
+          © 2018 - 2022 TruefeedbackSea, Inc
         </Text>
       </Box>
     </Flex>

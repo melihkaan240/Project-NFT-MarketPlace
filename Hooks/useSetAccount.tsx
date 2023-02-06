@@ -22,7 +22,7 @@ export const useSetAccount = () => {
 
     // Balance value alıyoruz ve storkene set ediyoruz
     const balance = await signer.getBalance();
-
+    setBalance.set(balance);
     // int value ya bir ayar çekiyoruz sıfırlarına falan
     setBalance.set(ethers.utils.formatEther(balance));
 
